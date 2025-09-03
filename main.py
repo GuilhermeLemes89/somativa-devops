@@ -15,3 +15,5 @@ async def apresentar():
 @app.get("/aleatorio")
 async def numeroaleatorio():
     return {"num_altr": random.randint(0, 1000)}
+
+
