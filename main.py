@@ -6,11 +6,11 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Lá vem o Chaves"}
 
 @app.get("/apresentacao")
 async def apresentar():
-    return {"Atividade Somativa - DEVOPS"}
+    return {"Atividade Somativa 2 - DEVOPS"}
 
 @app.get("/aleatorio")
 async def numeroaleatorio():
