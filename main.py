@@ -10,7 +10,7 @@ async def root():
 
 @app.get("/apresentacao")
 async def apresentar():
-    return {"Atividade Somativa - DEVOPS"}
+    return {"Atividade Somativa 2 - DEVOPS"}
 
 @app.get("/aleatorio")
 async def numeroaleatorio():
