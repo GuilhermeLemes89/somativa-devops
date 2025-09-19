@@ -38,7 +38,7 @@ async def test_update_colaborador_positivo():
 @pytest.mark.asyncio
 async def test_delete_colaborador_negativo():
     result = await delete_colaborador(-5)
-    assert result
+    assert not result
 
 @pytest.mark.asyncio
 async def test_delete_colaborador_positivo():
