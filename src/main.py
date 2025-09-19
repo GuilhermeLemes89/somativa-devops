@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 import random
-from pydantic.v1 import BaseModel
+from pydantic import BaseModel
 
 app = FastAPI()
 
